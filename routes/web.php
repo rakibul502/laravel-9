@@ -13,3 +13,4 @@ Route::get('/', function () {
 route::get('/index', [frontControlle::class, 'index'])->name('front.index');
 route::get('/contact', [frontControlle::class, 'contact'])->name('front.contact');
 route::get('/About', [frontControlle::class, 'About_us'])->name('front.About');
+route::get('/A', [frontControlle::class, 'A'])->name('front.About');
